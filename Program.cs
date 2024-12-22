@@ -393,6 +393,7 @@ internal static class Program
       ContinueOnKey();
    }
 #endregion
+
    #region User Interaction Methods
    static void GetUsername()
    {
@@ -450,6 +451,7 @@ internal static class Program
       return quantity;
    }
 #endregion
+
    #region Utility
 
    static int GetAmountOfProducts() => Products.Length; //gets amount of products so the UserItemChoiceInput prompt in the main menu gets adjusted to the amount of products.
